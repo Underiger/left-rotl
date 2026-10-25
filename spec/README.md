@@ -102,4 +102,6 @@
 
 C、組合語言與 `tools/rotl_isa.py` 都從這個檔案讀取 funct3、funct7。
 
+本組的 `rotl` 不是 Zbb 指令。報告與程式中一律使用 `rotl` 這個名稱，避免混淆（對照見 [`report/CP3.md`](../report/CP3.md) 第 2.6 節）。
+
 參考資料見 [`references/README.md`](../references/README.md)。
