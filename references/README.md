@@ -20,3 +20,4 @@
 | R5 | Using as（GNU Assembler 手冊），§9.38.5 RISC-V Instruction Formats | <https://sourceware.org/binutils/docs/as/RISC_002dV_002dFormats.html>，R type：`.insn r opcode7, funct3, funct7, rd, rs1, rs2`。存取日期 2026-10-08 | 以 `.insn r` 產生自訂指令 |
 | R6 | D. A. Patterson, J. L. Hennessy, *Computer Organization and Design RISC-V Edition: The Hardware/Software Interface*, Morgan Kaufmann | 第 4 章 The Processor：pipelining 概論、data hazards（forwarding 與 stall）、control hazards 各節。**版次與頁碼請依課程用書補上** | `experiments/pipeline_cycles.py` 的 5 級 pipeline 時間模型 |
 | R7 | Arm Architecture Reference Manual for A-profile architecture（Arm DDI 0487），A64 指令 `ROR`／`RORV`、`LSLV`、`LSRV` | <https://developer.arm.com/documentation/ddi0487/latest>。網頁需要 JavaScript，本組未能直接存取原文；所用指令的行為，以 `experiments/arm64_rotate_bench.c` 兩個版本的輸出皆符合 R3、R4 的測試向量間接驗證 | `experiments/` 驗證三（ARM64 實機量測） |
+| R8 | 小組討論紀要（二〇二六年十月八日） | [`report/紀要/2026-10-08.md`](../report/紀要/2026-10-08.md)，討論紀錄第七條（據原件補錄） | 範例報告題記之出處 |
